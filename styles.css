@@ -1,0 +1,127 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #FDF0D1;
+    text-align: center;
+    font-size: 24px;
+}
+
+.button-container {
+    visibility: flex;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(240, 18, 136, 0.747);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e95ca78e;
+    color: #333; 
+}
+
+aside {
+    margin: 15px auto;
+    right: 10px;
+    float: right;
+    position: relative;
+    width: 780px;
+}
+
+aside img {
+    margin: 10%;
+    width: 630px; /* Adjust this value to your desired width (70% of the original size) */
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.582);
+    border-radius: 30px;
+}
+#open {
+    visibility: block;
+    position: absolute;
+    bottom: 25px;
+    width: 640px; /* Adjust this value to your desired width (70% of the original size) */
+    margin: 10px;
+    left: 12%;
+    border: 5px solid #db62a393;
+    border-radius: 10px;
+}
+.close, .open-mouth, .close-mouth {
+    visibility: block;
+    position: absolute;
+    bottom: 25px;
+    left: 12%;
+    width: 640px; /* Adjust this value to your desired width (70% of the original size) */
+    margin: 9px;
+    border: 5px solid #db62a393;
+    border-radius: 10px;
+}
+
+#myButton{
+    position: relative;
+    right: 30px;
+    font-family: sans-serif;
+    font-size: 10px;
+    padding: 14px;
+    bottom: 10px;
+    margin: 11px;
+    background-color: rgba(182, 48, 122, 0.699);
+    color: white;
+    font-weight: 1000;
+    border-radius: 9px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.466);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#revertButton{
+    position: relative;
+    right: 30px;
+    font-family: sans-serif;
+    font-size: 10px;
+    padding: 14px;
+    margin: 11px;
+    background-color: rgba(182, 48, 122, 0.699);
+    color: white;
+    font-weight: 1000;
+    border-radius: 9px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.466);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+    position: relative;
+    top: 180px;
+    left: 12%;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    margin: 12px;
+    background-color: rgba(182, 48, 122, 0.699);
+    color: white;
+    font-weight: 1000;
+    border-radius: 9px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.466);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.popup-paragraph {
+    visibility: none;
+    margin-top: 20px;
+    color: #333;
+    font-size: 100000PX;
+}
